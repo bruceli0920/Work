@@ -1,0 +1,20 @@
+{
+	"index.html": {
+		"resources": [
+			"fonts/glyphicons-halflings-regular.woff2",
+			"css/index.css",
+			"css/bootstrap.css",
+			"css/swiper.min.css",
+			"js/bootstrap.js",
+			"js/jquery-2.2.3.js",
+			"js/swiper-3.3.1.min.js",
+			"js/davie.css.js",
+			"img/logo.png",
+			"img/淘宝图片/b2.jpg",
+			"img/淘宝图片/b1.jpg",
+			"img/淘宝图片/3.png",
+			"img/taobaoimg/3.png",
+			"img/taobaoimg/1.png"
+		]
+	}
+}
