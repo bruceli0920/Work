@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        ul,li{
+            list-style: none;
+        }
+        body{
+            font-size: 0.12rem;
+        }
+        header{
+            width: 4.15rem;
+            height: 0.38rem;
+            background-color: #ff5000;
+        }
+        header span{
+            font-size: 0.28rem;
+            text-align: center;
+            margin-left: 0.06rem;
+            margin-top: 0.14rem;
+            color:white;
+        }
+        header input{
+            width:3.71rem;
+            height: 0.25rem;
+            border-radius: 0.05rem;
+            background: #b52500;
+            line-height: 0.38rem;
+            border:none;
+            text-align: center;
+        }
+        footer{
+            width: 4.15rem;
+            height: 0.42rem;
+            background-color: #ff5000;
+        }
+        footer .fot_1{
+            width: 3.45rem;
+            height: 0.42rem;
+            background-color: #60646f;
+            float: left;
+        }
+        footer .fot_1 span{
+            width: 3.45rem;
+            height: 0.42rem;
+            margin-right:-0.8rem ;
+            color: white;
+        }
+        footer span{
+            font-size: 0.14rem;
+            display: inline-block;
+            width:0.6rem ;
+            height:0.3rem;
+            margin-top: 0.12rem;
+            margin-right:0.05rem ;
+            color: white;
+            float:right;
+        }
+        .clean{
+            clear: both;
+        }
+        /*顶部结束*/
+        /*主体开始*/
+        .main {
+            width: 4.15rem;
+            height: 4.5rem;
+            background-color: yellow;
+        }
+        .banner{
+            width: 4.15rem;
+            height: 1.3rem;
+            background-color: blue;
+            overflow: hidden;
+            background-size: cover;
+        }
+
+
+        /*主体结束*/
+        /*底部开始*/
+        .footer{
+            width: 4.15rem;
+            height: 0.45rem;
+            background-color: red;
+
+        }
+
+        /*底部结束*/
+    </style>
+</head>
+<body>
+    <div class="top">
+        <header>
+            <span>淘</span>
+            <input type="text" value="寻找宝贝店铺">
+        </header>
+        <footer>
+            <div class="fot_1">
+                <span>上客户端，领专属好礼！</span>
+            </div>
+            <span>立即领取</span>
+            <div class="clean"></div>
+        </footer>
+    </div>
+    <div class="main">
+        <div class="banner">
+            <img src="img/banner.png" alt="">
+        </div>
+    </div>
+    <div class="footer"></div>
+
+
+
+
+
+
+
+
+</body>
+</html>
+<script>
+    new function (){
+        document.documentElement.style.fontSize = innerWidth/4.15 + "px";
+        window.addEventListener("resize",function(){
+            document.documentElement.style.fontSize = innerWidth/4.15+ "px";
+        },false);
+    };
+</script>
